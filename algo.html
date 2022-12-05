@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="newcss.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Megrim&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Megrim&family=Quicksand:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <title>algorithm</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <img src="cryptography.jpg" />
+      <span>CRYPTOGRAPHY</span>
+      <span id="vlab">Vitual lab</span>
+      <ul>
+        <li><a href="newhome.html">HOME</a></li>
+      </ul>
+    </nav>
+    <div class="parent">
+      <p class="heading">Chinese Remainder Theorem</p>
+      <br /><br />
+      <h2>ALGORITHM</h2>
+      <br /><br />
+
+      <p class="step">
+        Step1: Find
+        M<sub>1</sub>=m<sub>1</sub>*m<sub>2</sub>*m<sub>3</sub>*...*m<sub>k</sub>.This
+        is the common modulus.
+      </p>
+      <br />
+      <p class="step">
+        Step2: Find
+        M1=M/m<sub>1</sub>,M2=M/m<sub>2</sub>,...,Mk=M/m<sub>k</sub>.
+      </p>
+      <br />
+      <p class="step">
+        Step3: Find the multiplicative inverse of
+        M<sub>1</sub>,M<sub>2</sub>,...,M<sub>K</sub> using the corresponding
+        moduli (m<sub>1</sub>,m<sub>2</sub>,...,m<sub>k</sub>).Call the inverse
+        is: M<sub>1</sub><sup>-1</sup>,M<sub>2</sub><sup>-1</sup>,...,M<sub
+          >k</sub
+        ><sup>-1</sup>.
+      </p>
+      <br />
+      <p class="step">
+        Step4: The solution to the simultaneous equation is
+        X=(a<sub>1</sub>*M<sub>1</sub>*M<sub>1</sub
+        ><sup>-1</sup>+a<sub>2</sub>*M<sub>2</sub>*M<sub>2</sub
+        ><sup>-1</sup>+...+a<sub>k</sub>*M<sub>k</sub>*M<sub>k</sub
+        ><sup>-1</sup>)mod M.
+      </p>
+    </div>
+  </body>
+</html>
